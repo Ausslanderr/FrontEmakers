@@ -1,7 +1,4 @@
-
-
 import logo from '../assets/images/icone.png'; // substitua o caminho pela localização correta da imagem
-
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
