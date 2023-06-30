@@ -101,7 +101,7 @@ function Login(){
               <div className="col-lg-6">
                 <div className="card-body p-md-5 mx-md-4">
                   <form>
-                    <p className="justify-content-center">Login</p>
+                    <h3 className="justify-content-center">Login</h3>
                     <br />
                     <div className="form-outline mb-4">
                       <input type="email" id="form2Example22" className="form-control" placeholder="Email" />

@@ -13,8 +13,8 @@ function App() {
   return <div><Navbar/>
   <Carousel/>
   <Conta/>
-  <Signup/>
   <Login/>
+  <Signup/>
   </div>
 }
 

@@ -9,7 +9,7 @@ function Signup(){
               <div className="col-lg-6" >
                 <div className="card-body p-md-5 mx-md-4">
                   <form>
-                    <p>Se inscreva na GameDame!!</p>
+                    <h3>Registrar</h3>
                     <br />
                     <div className="form-outline mb-4">
                       <input type="email" id="form2Example11" className="form-control"
@@ -18,12 +18,12 @@ function Signup(){
                     </div>
   
                     <div className="form-outline mb-4">
-                      <input type="password" id="form2Example22" className="form-control" placeholder="Email" />
+                      <input type="email" id="form2Example22" className="form-control" placeholder="Email" />
                       
                     </div>
 
                     <div className="form-outline mb-4">
-                      <input type="email" id="form2Example11" className="form-control"
+                      <input type="text" id="form2Example11" className="form-control"
                         placeholder="CPF" />
                       
                     </div>
