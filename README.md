@@ -1,3 +1,5 @@
+![FrontEnd Emakers Logo](insert_logo_link_here)
+
 # FrontEnd Emakers
 
 ## Tecnologias
