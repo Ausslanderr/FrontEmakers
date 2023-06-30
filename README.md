@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDlJxEDk1-CHMKJ6lwtkhQ7_v9M4A8ze9kcUnG_vApKg&s" alt="FrontEnd Emakers Logo">
+  <img src="https://lh3.googleusercontent.com/p/AF1QipMUOBKM6KPJ-8hJId8qiEQttCZpFHlnQLprNBM6=s680-w680-h510" alt="FrontEnd Emakers Logo">
 </p>
 # FrontEnd Emakers
 
