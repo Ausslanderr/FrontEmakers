@@ -1,4 +1,4 @@
-![FrontEnd Emakers Logo](insert_logo_link_here)
+![FrontEnd Emakers Logo](https://www.facebook.com/emakersjr/)
 
 # FrontEnd Emakers
 
