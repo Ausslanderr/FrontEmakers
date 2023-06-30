@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/p/AF1QipMUOBKM6KPJ-8hJId8qiEQttCZpFHlnQLprNBM6=s680-w680-h510" alt="FrontEnd Emakers Logo" style={{width:'200px', height: '200px'}}>
+  <img src="https://lh3.googleusercontent.com/p/AF1QipMUOBKM6KPJ-8hJId8qiEQttCZpFHlnQLprNBM6=s680-w680-h510" alt="FrontEnd Emakers Logo", width:'200px', height: '200px'>
 </p>
 # FrontEnd Emakers
 
