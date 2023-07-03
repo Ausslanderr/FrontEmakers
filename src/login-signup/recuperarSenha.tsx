@@ -1,6 +1,9 @@
 import img from "../assets/images/imgEmakers1.png";
+import Footer from "../home/footer";
+import Navbar from "../home/navbar";
 function RecuperarSenha(){
-    return <section className="h-100 gradient-form">
+    return <div><Navbar/>
+      <section className="h-100 gradient-form">
     <div className="container py-5 h-100">
       <div className="row d-flex justify-content-center align-items-center h-100">
         <div className="col-xl-10">
@@ -10,9 +13,12 @@ function RecuperarSenha(){
                 <div className="card-body p-md-5 mx-md-4">
                   <form>
                     <h3 className="justify-content-center">Recuperar Conta</h3>
-                    <br />
+                    <br /> 
                     <div className="form-outline mb-4">
                       <input type="email" id="form2Example22" className="form-control" placeholder="Email" />
+                    </div>
+                    <div className="d-flex align-items-center justify-content-center pb-4">
+                      <button type="button" className="btn btn-outline-danger" onClick={() => window.alert("!!!!!!!!")}>Enviar email de recuperação</button>
                     </div>
                   </form>
                 </div>
@@ -25,6 +31,8 @@ function RecuperarSenha(){
         </div>
       </div>
     </div>
-  </section>;
+  </section>
+  <Footer/>
+  </div>;
 }
 export default RecuperarSenha;

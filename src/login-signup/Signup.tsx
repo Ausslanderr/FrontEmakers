@@ -1,6 +1,10 @@
 import img from "../assets/images/imgEmakers1.png";
+import Footer from "../home/footer";
+import Navbar from "../home/navbar";
+import {Link} from 'react-router-dom'
 function Signup(){
-    return <section className="h-100 gradient-form">
+    return <div><Navbar/>
+      <section className="h-100 gradient-form">
     <div className="container py-5 h-100">
       <div className="row d-flex justify-content-center align-items-center h-100">
         <div className="col-xl-10">
@@ -39,8 +43,9 @@ function Signup(){
                       
                     </div>
                     <div className="text-center pt-1 mb-5 pb-1">
-                      <button className="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Signup</button>
-                      
+                      <Link to={"/minhaConta"}>
+                      <button className="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Registrar-se</button>
+                      </Link>
                     </div>
   
                     <div className="d-flex align-items-center justify-content-center pb-4">
@@ -63,6 +68,8 @@ function Signup(){
         </div>
       </div>
     </div>
-  </section>;
+  </section>
+  <Footer/>
+  </div>;
 }
 export default Signup;

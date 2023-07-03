@@ -9,16 +9,14 @@ import Conta from './perfilUser/conta'
 import Login from './login-signup/login';
 import Signup from './login-signup/Signup';
 import RecuperarSenha from './login-signup/recuperarSenha'
+import Home from './home/home'
+import Footer from './home/footer'
 
 // nome da função tem que iniciar com MAIUSCULA
 function App() {
-  
   return <div><Navbar/>
-  <Carousel/>
-  <Conta/>
-  <Login/>
-  <Signup/>
-  <RecuperarSenha/>
+    <Home/>
+    <Footer/>
   </div>
 }
 

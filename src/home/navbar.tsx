@@ -1,7 +1,10 @@
 import logo from '../assets/images/icone.png'; // substitua o caminho pela localização correta da imagem
+import Carousel from './carousel';
+import {Link} from 'react-router-dom'
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <div>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
       <div className="container-fluid">
         <img src={logo} alt="GameDame" style={{width:'45px', height:'45px'}} />
         <button
@@ -18,9 +21,11 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
+              <Link to={"/"}>
               <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -73,16 +78,21 @@ function Navbar() {
               placeholder="Search"
               aria-label="Search"
             />
+            <Link to={"/login"}>
             <button className="btn btn-outline-success" type="submit">
               Login
             </button>
+            </Link>
+            <Link to={"/signup"}>
             <button className="btn btn-outline-success" type="submit">
               Signup
             </button>
+            </Link>
           </form>
         </div>
       </div>
     </nav>
+    </div>
   );
 }
 

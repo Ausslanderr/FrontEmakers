@@ -3,17 +3,20 @@ import deathStrandingBanner from '../assets/images/deathstranding.jpg';
 import mariobros from '../assets/images/mariobros.jpg';
 import redDead from '../assets/images/redDead.jpg';
 import skyrim from '../assets/images/skyrim.jpg';
+import Footer from '../home/footer';
+import Navbar from '../home/navbar';
 function Conta() {
-  const nome = "<<Davi Siqueira>>";
+  const nome = "<<Nome de usuário>>";
   return (
-    <div className="container-fluid">
+    <div><Navbar/>
+      <div className="container-fluid">
       <div className="row">
         <div className="col-lg-8">
           <div className="d-flex flex-column justify-content-center align-items-center vh-100">
             <div className="text-center">
               <h1>Olá {nome}</h1>
-              <p className="mb-3">Seu email é davi.siqueira@estudante.ufla.br</p>
-              <p className="mb-3">Seu cpf é 123.456.789.00</p>
+              <p className="mb-3">Seu email é nome@estudante.ufla.br</p>
+              <p className="mb-3">Seu cpf é xxx.xxx.xxx.xx</p>
               <button className="btn btn-primary">Alterar Dados</button>
               <br />
               <br />
@@ -73,6 +76,8 @@ function Conta() {
           </div>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 }
