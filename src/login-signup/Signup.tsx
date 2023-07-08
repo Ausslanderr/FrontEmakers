@@ -50,7 +50,9 @@ function Signup(){
   
                     <div className="d-flex align-items-center justify-content-center pb-4">
                       <p className="mb-0 me-2">Já possue uma conta?</p>
+                      <Link to="/login">
                       <button type="button" className="btn btn-outline-danger">Entrar</button>
+                      </Link>
                     </div>
                     
   
