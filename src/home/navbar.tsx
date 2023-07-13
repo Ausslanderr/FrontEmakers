@@ -1,3 +1,4 @@
+
 import logo from '../assets/images/icone.png'; // substitua o caminho pela localização correta da imagem
 import Carousel from './carousel';
 import {Link} from 'react-router-dom'

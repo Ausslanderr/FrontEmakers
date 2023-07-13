@@ -34,7 +34,7 @@ function Conta() {
           >
             <div className="row">
               <div className="col-6">
-                <div className="card m-3" style={{ width: '180px', height: '250px' }}>
+                <div className="card m-3" style={{ width: '170px', height: '250px' }}>
                   <img src={deathStrandingBanner} className="card-img-top" alt="" style={{ height: '150px' }} />
                   <div className="card-body">
                     <h5 className="card-title">Death Stranding</h5>
@@ -43,7 +43,7 @@ function Conta() {
                 </div>
               </div>
               <div className="col-6">
-                <div className="card m-3" style={{ width: '180px', height: '250px' }}>
+                <div className="card m-3" style={{ width: '170px', height: '250px' }}>
                   <img src={redDead} className="card-img-top" alt="" style={{ height: '150px' }} />
                   <div className="card-body">
                     <h5 className="card-title">Red Dead Redemption 2</h5>
@@ -54,7 +54,7 @@ function Conta() {
             </div>
             <div className="row">
               <div className="col-6">
-                <div className="card m-3" style={{ width: '180px', height: '250px' }}>
+                <div className="card m-3" style={{ width: '170px', height: '250px' }}>
                   <img src={mariobros} className="card-img-top" alt="" style={{ height: '150px' }} />
                   <div className="card-body">
                     <h5 className="card-title">Super Mario Bros</h5>
@@ -63,7 +63,7 @@ function Conta() {
                 </div>
               </div>
               <div className="col-6">
-                <div className="card m-3" style={{ width: '180px', height: '250px' }}>
+                <div className="card m-3" style={{ width: '170px', height: '250px' }}>
                   <img src={skyrim} className="card-img-top" alt="" style={{ height: '150px' }} />
                   <div className="card-body">
                     <h5 className="card-title">The Elder Scrolls V: Skyrim</h5>

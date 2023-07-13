@@ -38,7 +38,7 @@ function Signup(){
                     </div>
 
                     <div className="form-outline mb-4">
-                      <input type="email" id="form2Example11" className="form-control"
+                      <input type="password" id="form2Example11" className="form-control"
                         placeholder="Confirmar Senha" />
                       
                     </div>
